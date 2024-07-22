@@ -13,7 +13,7 @@ html {
 body {
   box-sizing: border-box;
   background-color: #1e1b4b;
-  color: #fff;
+  color: #eab308;
   font-family: "Chewy", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -44,15 +44,17 @@ body {
   gap: 1.2rem;
   align-items: center;
 
-  background-color: #14132f;
+  background-color: #fff;
   padding: 2.4rem;
   max-width: 42rem;
   padding-bottom: 4rem;
+  color: #1e1b4b;
 }
 
 .card__image {
   width: 8rem;
   border-radius: 100%;
+  border: 2px solid #1e1b4b;
 }
 
 .card__title {
